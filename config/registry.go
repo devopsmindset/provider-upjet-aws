@@ -156,7 +156,7 @@ func GetProvider(ctx context.Context, generationProvider bool) (*config.Provider
 			TagsAllRemoval(),
 			IdentifierAssignedByAWS(),
 			KnownReferencers(),
-			AddExternalTagsField(),
+// 			AddExternalTagsField(),
 			ResourceConfigurator(),
 			NamePrefixRemoval(),
 			DocumentationForTags(),
